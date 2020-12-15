@@ -1,0 +1,101 @@
+<!-- O DOCTYPE informa ao navegador que o arquivo é um documento HTML. -->
+<!DOCTYPE html>
+<!-- O elemento <html> é a raiz do documento HTML. -->
+<html lang="pt-BR">
+  <!-- O elemento <head> é uma coleção de metada do documento. -->
+  <head>
+    <!--
+      O elemento <meta> representa metadatas que não podem ser representadas por
+      outras tags. Estamos definindo que o formato de codificação de caracteres
+      do documento é UTF-8.
+    -->
+    <meta charset="UTF-8" />
+    <!-- O elemento <title> representa o nome ou título da página. -->
+    <title>Daniel Sarsi Orta</title>
+    <!--
+      O elemento <link> permite associar este documento com outros recursos.
+    -->
+    <link rel="stylesheet" href="estilo.css" />
+  </head>
+  <!-- O elemento <body> representa o conteúdo do documento. -->
+  <body>
+    <!-- O elemento <main> representa o conteúdo principal do body. -->
+    <main>
+      <!--
+        O elemento <picture> representa o conteúdo independente, frequentemente
+        com uma legenda (<figcaption>), e é normalmente referido como uma única
+        unidade.
+      -->
+      <figure>
+        <!-- O elemento <img> representa a inserção de imagem no documento. -->
+        <img src="avatar.png" alt="Foto de perfil." />
+      </figure>
+
+      <!--
+        Os elementos <h1>–<h6> representam seis níveis de título de seção.
+      -->
+      <h1>Daniel Sarsi Orta</h1>
+      <h2>25 anos e estudante de Psicologia.</h2>
+
+      <!--
+        O elemento <ul> representa uma lista de itens sem ordem rígida, isto é,
+        uma coleção de itens que não trazem uma ordenação numérica e as suas
+        posições, nessa lista, são irrelevantes.
+      -->
+      <!--
+        O atributo global id define um identificador exclusivo (ID) que deve ser
+        único por todo o documento.
+      -->
+      <ul id="redes-sociais">
+        <!--
+          O elemento <li> é usado para representar um item que faz parte de uma
+          lista.
+        -->
+        <!--
+          O atributo global class é uma lista das classes de um elemento,
+          separada por espaços.
+        -->
+        <li class="whatsapp">
+          <!--
+            O elemento <a>, com o atributo href cria-se um hiperligação nas
+            páginas web, arquivos, endereços de emails, ligações na mesma página
+            ou endereços na URL.
+          -->
+          <a
+            href="https://wa.me/+5532987005890"
+            target="_blank"
+            rel="noopener noreferrer"
+            >WhatsApp</a
+          >
+        </li>
+        <li class="instagram">
+          <a
+            href="https://www.instagram.com/danielsarsi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Instagram</a
+          >
+        </li>
+        <li class="twitter">
+          <a
+            href="https://twitter.com/danielsarsi/"
+            target="_blank"
+            rel="noopener noreferrer"
+            >Twitter</a
+          >
+        </li>
+      </ul>
+
+      <!--
+        O elemento <ol> representa uma lista de itens ordenados.
+      -->
+      <ol id="descricao">
+        <li>Paulista campineiro procurando em Minas.</li>
+        <li>Desenvolvedor web e tuiteiro não-verificado.</li>
+        <li>Ex-militar com a cor desbotada da farda na pele.</li>
+        <li>Estudante até quando o vírus permitir.</li>
+        <li>Futuro Psicólogo.</li>
+      </ol>
+    </main>
+  </body>
+</html>
